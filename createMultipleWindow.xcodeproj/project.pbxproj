@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77FFC0214A5082D004626BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77FFC0114A5082D004626BF /* Cocoa.framework */; };
+		A77FFC0C14A5082D004626BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77FFC0A14A5082D004626BF /* InfoPlist.strings */; };
+		A77FFC0E14A5082D004626BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77FFC0D14A5082D004626BF /* main.m */; };
+		A77FFC1214A5082D004626BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A77FFC1014A5082D004626BF /* Credits.rtf */; };
+		A77FFC1514A5082D004626BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77FFC1414A5082D004626BF /* AppDelegate.m */; };
+		A77FFC1814A5082D004626BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77FFC1614A5082D004626BF /* MainMenu.xib */; };
+		A7C2D46614A5085A00BED79F /* myWindow1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C2D46514A5085A00BED79F /* myWindow1.xib */; };
+		A7C2D46914A5086500BED79F /* myWindow2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C2D46814A5086500BED79F /* myWindow2.xib */; };
+		A7C2D46C14A5088000BED79F /* myWindow1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C2D46B14A5088000BED79F /* myWindow1Controller.m */; };
+		A7C2D46F14A5089C00BED79F /* myWindow2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C2D46E14A5089C00BED79F /* myWindow2Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A77FFBFD14A5082D004626BF /* createMultipleWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = createMultipleWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77FFC0114A5082D004626BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A77FFC0414A5082D004626BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A77FFC0514A5082D004626BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A77FFC0614A5082D004626BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A77FFC0914A5082D004626BF /* createMultipleWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "createMultipleWindow-Info.plist"; sourceTree = "<group>"; };
+		A77FFC0B14A5082D004626BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77FFC0D14A5082D004626BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77FFC0F14A5082D004626BF /* createMultipleWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "createMultipleWindow-Prefix.pch"; sourceTree = "<group>"; };
+		A77FFC1114A5082D004626BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A77FFC1314A5082D004626BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A77FFC1414A5082D004626BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A77FFC1714A5082D004626BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7C2D46514A5085A00BED79F /* myWindow1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myWindow1.xib; sourceTree = "<group>"; };
+		A7C2D46814A5086500BED79F /* myWindow2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myWindow2.xib; sourceTree = "<group>"; };
+		A7C2D46A14A5088000BED79F /* myWindow1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myWindow1Controller.h; sourceTree = "<group>"; };
+		A7C2D46B14A5088000BED79F /* myWindow1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myWindow1Controller.m; sourceTree = "<group>"; };
+		A7C2D46D14A5089C00BED79F /* myWindow2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myWindow2Controller.h; sourceTree = "<group>"; };
+		A7C2D46E14A5089C00BED79F /* myWindow2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myWindow2Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77FFBFA14A5082D004626BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77FFC0214A5082D004626BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77FFBF214A5082D004626BF = {
+			isa = PBXGroup;
+			children = (
+				A77FFC0714A5082D004626BF /* createMultipleWindow */,
+				A77FFC0014A5082D004626BF /* Frameworks */,
+				A77FFBFE14A5082D004626BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77FFBFE14A5082D004626BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77FFBFD14A5082D004626BF /* createMultipleWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77FFC0014A5082D004626BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77FFC0114A5082D004626BF /* Cocoa.framework */,
+				A77FFC0314A5082D004626BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77FFC0314A5082D004626BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77FFC0414A5082D004626BF /* AppKit.framework */,
+				A77FFC0514A5082D004626BF /* CoreData.framework */,
+				A77FFC0614A5082D004626BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A77FFC0714A5082D004626BF /* createMultipleWindow */ = {
+			isa = PBXGroup;
+			children = (
+				A77FFC1314A5082D004626BF /* AppDelegate.h */,
+				A77FFC1414A5082D004626BF /* AppDelegate.m */,
+				A77FFC1614A5082D004626BF /* MainMenu.xib */,
+				A7C2D46A14A5088000BED79F /* myWindow1Controller.h */,
+				A7C2D46B14A5088000BED79F /* myWindow1Controller.m */,
+				A7C2D46514A5085A00BED79F /* myWindow1.xib */,
+				A7C2D46D14A5089C00BED79F /* myWindow2Controller.h */,
+				A7C2D46E14A5089C00BED79F /* myWindow2Controller.m */,
+				A7C2D46814A5086500BED79F /* myWindow2.xib */,
+				A77FFC0814A5082D004626BF /* Supporting Files */,
+			);
+			path = createMultipleWindow;
+			sourceTree = "<group>";
+		};
+		A77FFC0814A5082D004626BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77FFC0914A5082D004626BF /* createMultipleWindow-Info.plist */,
+				A77FFC0A14A5082D004626BF /* InfoPlist.strings */,
+				A77FFC0D14A5082D004626BF /* main.m */,
+				A77FFC0F14A5082D004626BF /* createMultipleWindow-Prefix.pch */,
+				A77FFC1014A5082D004626BF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77FFBFC14A5082D004626BF /* createMultipleWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77FFC1B14A5082D004626BF /* Build configuration list for PBXNativeTarget "createMultipleWindow" */;
+			buildPhases = (
+				A77FFBF914A5082D004626BF /* Sources */,
+				A77FFBFA14A5082D004626BF /* Frameworks */,
+				A77FFBFB14A5082D004626BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = createMultipleWindow;
+			productName = createMultipleWindow;
+			productReference = A77FFBFD14A5082D004626BF /* createMultipleWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77FFBF414A5082D004626BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A77FFBF714A5082D004626BF /* Build configuration list for PBXProject "createMultipleWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A77FFBF214A5082D004626BF;
+			productRefGroup = A77FFBFE14A5082D004626BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77FFBFC14A5082D004626BF /* createMultipleWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77FFBFB14A5082D004626BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77FFC0C14A5082D004626BF /* InfoPlist.strings in Resources */,
+				A77FFC1214A5082D004626BF /* Credits.rtf in Resources */,
+				A77FFC1814A5082D004626BF /* MainMenu.xib in Resources */,
+				A7C2D46614A5085A00BED79F /* myWindow1.xib in Resources */,
+				A7C2D46914A5086500BED79F /* myWindow2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77FFBF914A5082D004626BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77FFC0E14A5082D004626BF /* main.m in Sources */,
+				A77FFC1514A5082D004626BF /* AppDelegate.m in Sources */,
+				A7C2D46C14A5088000BED79F /* myWindow1Controller.m in Sources */,
+				A7C2D46F14A5089C00BED79F /* myWindow2Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A77FFC0A14A5082D004626BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77FFC0B14A5082D004626BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A77FFC1014A5082D004626BF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77FFC1114A5082D004626BF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A77FFC1614A5082D004626BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77FFC1714A5082D004626BF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77FFC1914A5082D004626BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A77FFC1A14A5082D004626BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A77FFC1C14A5082D004626BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "createMultipleWindow/createMultipleWindow-Prefix.pch";
+				INFOPLIST_FILE = "createMultipleWindow/createMultipleWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A77FFC1D14A5082D004626BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "createMultipleWindow/createMultipleWindow-Prefix.pch";
+				INFOPLIST_FILE = "createMultipleWindow/createMultipleWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77FFBF714A5082D004626BF /* Build configuration list for PBXProject "createMultipleWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77FFC1914A5082D004626BF /* Debug */,
+				A77FFC1A14A5082D004626BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77FFC1B14A5082D004626BF /* Build configuration list for PBXNativeTarget "createMultipleWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77FFC1C14A5082D004626BF /* Debug */,
+				A77FFC1D14A5082D004626BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77FFBF414A5082D004626BF /* Project object */;
+}
